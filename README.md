@@ -1,10 +1,19 @@
-# Collection of random CSS hacks for Firefox
+
+<!-- have alook and implement live preview -->
+
+[Live Preview](https://htmlpreview.github.io/?https://github.com/russs123/firefox-tutorial/blob/main/index.html)
+
+
+
+
+
+# CSS hacks for Firefox
 
 This repository contains some styles to modify appearance of Mozilla Firefox. These stylesheets are mostly self-contained and can be mixed with each other somewhat freely, but there are no promises about compatibility with third-party styles.
 
 In the case that a particular style relies on another style, the fact will be noted at the start of the file that requires so.
 
-Stylesheets in this repository are tested on Arcolinux bspwm. Most of them should also work on OSX and Windows7, but there may be wrong behavior especially when native widgets such as window titlebar or window control buttons are being styled.
+Stylesheets in this repository are tested on fedora bspwm. Most of them should also work on other systems, but there may be wrong behavior especially when native widgets such as window title bar or window control buttons are being styled.
 
 # Setup
 
@@ -70,7 +79,7 @@ Assumes that you have a git client installed, and that you do not already have a
 
 0. Open a command prompt / console / terminal and `cd` into the profile folder
 0. Clone this repository into the profile folder
-    * `git clone https://github.com/MrOtherGuy/firefox-csshacks.git chrome` on command-line
+    * `git clone https://github.com/richardbendli/firefox-config chrome` on command-line
     * This should create a new folder "chrome" into your profile folder with the contents of this repository
     * (**NOTE**: if you already have "chrome" folder, then rename it before cloning. After clone is complete, just copy the *contents* of the old folder into the new chrome folder)
 0. (Optional) Make a copy of `userChrome_example.css` and rename the copy to `userChrome.css`
