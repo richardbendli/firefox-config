@@ -1,12 +1,3 @@
-
-<!-- have alook and implement live preview -->
-
-[Live Preview](https://htmlpreview.github.io/?https://github.com/russs123/firefox-tutorial/blob/main/index.html)
-
-
-
-
-
 # CSS hacks for Firefox
 
 This repository contains some styles to modify appearance of Mozilla Firefox. These stylesheets are mostly self-contained and can be mixed with each other somewhat freely, but there are no promises about compatibility with third-party styles.
